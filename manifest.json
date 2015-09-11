@@ -10,7 +10,8 @@
   "content_scripts": [
     {
       "matches": ["http://*/*","https://*/*"],
-      "js": ["block.js"]
+      "js": ["block.js"],
+      "run_at":"document_start"
     }
   ],
     "permissions": [
